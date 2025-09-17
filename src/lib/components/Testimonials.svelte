@@ -1,7 +1,15 @@
-<section class="bg-gray-50 py-16">
-	<h2 class="mb-6 text-center text-2xl font-bold">Testimonials</h2>
-	<div class="mx-auto max-w-2xl space-y-4">
-		<div class="rounded-lg border p-4">"Divya’s coaching helped me ace SSB!" — Student A</div>
-		<div class="rounded-lg border p-4">"Excellent guidance and materials." — Student B</div>
+<section class="bg-gray-100 py-16 dark:bg-gray-900">
+	<div class="mx-auto max-w-5xl px-4">
+		<h2 class="mb-10 text-center text-4xl font-bold text-foreground">What Students Say</h2>
+		<div class="grid gap-6 md:grid-cols-2">
+			<div class="rounded-xl border border-border bg-card p-6 shadow-md">
+				<p class="text-lg text-card-foreground">"Divya’s coaching helped me ace SSB!"</p>
+				<p class="mt-4 text-sm font-semibold text-muted-foreground">— Student A</p>
+			</div>
+			<div class="rounded-xl border border-border bg-card p-6 shadow-md">
+				<p class="text-lg text-card-foreground">"Excellent guidance and materials."</p>
+				<p class="mt-4 text-sm font-semibold text-muted-foreground">— Student B</p>
+			</div>
+		</div>
 	</div>
 </section>
