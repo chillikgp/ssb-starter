@@ -6,11 +6,11 @@
 	import BlogList from '$lib/components/BlogList.svelte';
 </script>
 
-<main class="mx-auto max-w-5xl space-y-20 p-4">
+<main class="mx-auto max-w-5xl space-y-20">
 	<Hero
-		title="SSB Coaching by Divya"
-		subtitle="A descriptive subtitle for your hero section."
-		ctaText="Book a 15 min Call"
+		title="MORE THAN A CLASS — IT'S A LIFESTYLE"
+		subtitle="Join a community that pushes limits and celebrates every victory — big or small."
+		ctaText="START YOUR FREE TRIAL"
 		ctaHref="https://calendly.com/chillichacha/talktome"
 	/>
 	<Program />
