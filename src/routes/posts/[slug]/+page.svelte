@@ -1,10 +1,8 @@
 <script>
 	import { getPostBySlug } from '$lib/posts.js';
 	import { page } from '$app/stores';
-
 	// Extract the slug from the URL parameters
 	const { slug } = $page.params;
-
 	// Fetch the post data
 	const post = getPostBySlug(slug);
 
@@ -16,7 +14,7 @@
 </script>
 
 {#if post}
-	<article class="mx-auto max-w-3xl px-4 py-16">
+	<article class="mx-auto max-w-3xl px-4 pt-32 pb-16">
 		<h1 class="text-4xl font-bold">{post.metadata.title}</h1>
 		<p class="mt-2 text-sm text-muted-foreground">
 			Published on {new Date(post.metadata.date).toLocaleDateString()}

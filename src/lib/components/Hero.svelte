@@ -6,20 +6,20 @@
 </script>
 
 <section
-	class="relative h-[80vh] w-full bg-cover bg-center text-white"
+	class="relative w-full bg-cover bg-center text-white"
 	style="background-image: url('/hero-bg.jpg');"
 >
 	<div class="absolute inset-0 bg-black opacity-60"></div>
 
-	<div class="relative z-10 mx-auto flex h-full max-w-7xl items-center px-4">
-		<div class="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-			<div class="flex flex-col justify-center space-y-6 md:col-span-2">
-				<h1 class="text-5xl font-extrabold tracking-tight sm:text-6xl">{title}</h1>
+	<div class="relative z-10 mx-auto flex min-h-[80vh] max-w-7xl items-end px-4 py-16">
+		<div class="flex w-full flex-col items-start justify-end space-y-8">
+			<div class="max-w-xl space-y-4">
+				<h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">{title}</h1>
 				<p class="text-xl text-gray-300">{subtitle}</p>
 				<div class="flex space-x-4">
 					<a
 						href={ctaHref}
-						class="rounded-lg bg-primary px-8 py-3 font-semibold transition-colors hover:bg-primary/90"
+						class="hover:bg-opacity-90 rounded-lg bg-[#ff6c22] px-8 py-3 font-semibold text-white transition-colors"
 					>
 						{ctaText}
 					</a>
@@ -32,8 +32,8 @@
 				</div>
 			</div>
 
-			<div class="lg:col-span-1">
-				<div class="mt-8 rounded-lg bg-white p-6 text-black shadow-lg md:mt-0">
+			<div class="absolute right-4 bottom-16 md:right-16">
+				<div class="max-w-sm rounded-lg bg-white p-6 text-black shadow-lg">
 					<p class="text-sm italic">
 						"Your coaching helped me ace the SSB interviews! It's more than just a class, it's a
 						lifestyle."

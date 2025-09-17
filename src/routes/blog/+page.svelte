@@ -3,7 +3,7 @@
 	const posts = getAllPosts();
 </script>
 
-<div class="mx-auto max-w-5xl space-y-8 px-4 py-16">
+<div class="mx-auto max-w-5xl space-y-8 px-4 pt-32 pb-16">
 	<h1 class="text-center text-4xl font-bold">All Blog Posts</h1>
 
 	<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -29,7 +29,6 @@
             `
 		}
 	];
-
 	const benefitsRight = [
 		{
 			title: 'Daily Psych Homework',
@@ -58,7 +57,7 @@
 	];
 </script>
 
-<section class="bg-gray-50 py-16 dark:bg-gray-900">
+<section class="bg-background py-16">
 	<div class="mx-auto max-w-7xl px-4">
 		<div class="mb-10 text-center">
 			<div class="flex items-center justify-center space-x-2 text-primary">
@@ -77,12 +76,10 @@
 		<div class="grid gap-8 lg:grid-cols-3">
 			<div class="grid h-full w-full gap-6">
 				{#each benefitsLeft as benefit}
-					<div
-						class="relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800"
-					>
+					<div class="relative rounded-xl border border-border bg-card p-6 shadow-sm">
 						<div class="relative z-10 flex flex-col items-start space-y-4">
 							<div
-								class="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 p-2 dark:bg-gray-700"
+								class="flex h-12 w-12 items-center justify-center rounded-lg bg-secondary p-2 text-secondary-foreground"
 							>
 								{@html benefit.icon}
 							</div>
@@ -95,11 +92,9 @@
 
 			<div class="relative flex h-full w-full items-center justify-center p-6 lg:p-0">
 				<div
-					class="relative flex h-full max-w-sm flex-col items-center justify-start overflow-hidden rounded-3xl border border-gray-200 bg-white p-8 text-center shadow-lg dark:border-gray-700 dark:bg-gray-800"
+					class="relative flex h-full max-w-sm flex-col items-center justify-start overflow-hidden rounded-3xl border border-border bg-card p-8 text-center shadow-lg"
 				>
-					<div
-						class="relative h-40 w-40 overflow-hidden rounded-full border-4 border-gray-300 dark:border-gray-600"
-					>
+					<div class="relative h-40 w-40 overflow-hidden rounded-full border-4 border-border">
 						<img src="/mentor.jpg" alt="Divya Lata" class="h-full w-full object-cover" />
 					</div>
 
@@ -115,12 +110,10 @@
 
 			<div class="grid h-full w-full gap-6">
 				{#each benefitsRight as benefit}
-					<div
-						class="relative rounded-xl border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800"
-					>
+					<div class="relative rounded-xl border border-border bg-card p-6 shadow-sm">
 						<div class="relative z-10 flex flex-col items-start space-y-4">
 							<div
-								class="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 p-2 dark:bg-gray-700"
+								class="flex h-12 w-12 items-center justify-center rounded-lg bg-secondary p-2 text-secondary-foreground"
 							>
 								{@html benefit.icon}
 							</div>

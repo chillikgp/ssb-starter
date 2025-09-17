@@ -6,15 +6,13 @@
 	import BlogList from '$lib/components/BlogList.svelte';
 </script>
 
-<main class="mx-auto max-w-5xl space-y-20">
-	<Hero
-		title="MORE THAN A CLASS — IT'S A LIFESTYLE"
-		subtitle="Join a community that pushes limits and celebrates every victory — big or small."
-		ctaText="START YOUR FREE TRIAL"
-		ctaHref="https://calendly.com/chillichacha/talktome"
-	/>
-	<Program />
-	<Testimonials />
-	<RegisterUPI />
-	<BlogList />
-</main>
+<Hero
+	title="MORE THAN A CLASS — IT'S A LIFESTYLE"
+	subtitle="Join a community that pushes limits and celebrates every victory — big or small."
+	ctaText="START YOUR FREE TRIAL"
+	ctaHref="https://calendly.com/chillichacha/talktome"
+/>
+<Program />
+<Testimonials />
+<RegisterUPI />
+<BlogList />
